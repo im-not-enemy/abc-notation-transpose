@@ -2,10 +2,12 @@
   "name": "abc-transpose",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "files": ["dist"],
   "scripts": {
     "build": "npx tsc",
-    "test": "npx jest"
+    "test": "npx jest",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
