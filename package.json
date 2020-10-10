@@ -1,9 +1,11 @@
 {
-  "name": "abc-transpose",
+  "name": "abc-notation-transpose",
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "npx tsc",
     "test": "npx jest",
@@ -13,7 +15,10 @@
     "type": "git",
     "url": "git+https://github.com/im-not-enemy/abc-transpose.git"
   },
-  "keywords": ["abc","transpose"],
+  "keywords": [
+    "abc",
+    "transpose"
+  ],
   "author": "im-not-enemy <imnotenemy93@gmail.com>",
   "license": "ISC",
   "bugs": {
